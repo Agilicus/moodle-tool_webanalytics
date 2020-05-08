@@ -18,6 +18,7 @@ services:
   - mysql
 
 php:
+  - 7.1
   - 7.2
   - 7.3
 
@@ -29,6 +30,7 @@ env:
     - MOODLE_BRANCH=MOODLE_35_STABLE
     - MOODLE_BRANCH=MOODLE_36_STABLE
     - MOODLE_BRANCH=MOODLE_37_STABLE
+    - MOODLE_BRANCH=MOODLE_38_STABLE
     - MOODLE_BRANCH=master
 
 matrix:
